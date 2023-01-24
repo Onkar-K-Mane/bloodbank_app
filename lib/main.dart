@@ -6,9 +6,10 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-          child: Center(
-        child: Image.asset("assets\bloodBankHeart.png"),
-      )),
+        child: Center(
+          child: Image.asset("assets\bloodBankHeart.png"),
+        ),
+      ),
     );
   }
 }
